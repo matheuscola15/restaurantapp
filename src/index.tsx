@@ -7,8 +7,13 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <Home/>
+  <React.StrictMode >
+    <div className="">
+      <div className="h-20 grid place-content-center bg-indigo-900 text-gray-50">
+        <h1 className="text-2xl">Hello, world. Learn how to code</h1>
+      </div>
+      <Home />  
+    </div>
   </React.StrictMode>
 );
 

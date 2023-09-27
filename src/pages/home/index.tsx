@@ -1,12 +1,18 @@
-import styles from '../home/Home.module.scss'
-import logo2 from '../assets/header.png'
+
+
 
 export default function Home(){
     return(
-        <main>
-            <nav className={styles.menu}>
-                <img src={logo2} alt="" className={styles.logo}/>
-            </nav>
-        </main>
+        <div className="bg-indigo-500 text-indigo-50">
+      <header>
+        <ul className="list-none flex justify-center gap-4">
+          <li className="p-2">Home</li>
+          <li className="p-2">Blog</li>
+          <li className="p-2">About</li>
+          <li className="p-2">Contact</li>
+        </ul>
+      </header>
+    
+    </div>
     )
 }
